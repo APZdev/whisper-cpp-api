@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  whisper-cpp-api-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+      - ./whispercpp/:/usr/src/app/whispercpp/
+    env_file:
+      - ./.env.dev

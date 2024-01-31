@@ -1,0 +1,13 @@
+build/
+node_modules/
+
+
+.pnpm-store
+.vscode
+.git
+.gitignore
+.eslintrc.json
+.prettierrc
+
+temp/
+# whispercpp/models/

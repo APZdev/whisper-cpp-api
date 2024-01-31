@@ -1,0 +1,92 @@
+# Node
+node_modules
+build
+
+# PNPM
+.pnpm
+.pnpm-debug.log*
+.pnpm-store
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettierignore
+.prettiercache
+
+# Docker
+.docker/
+*.log
+
+# Docker Compose
+# docker-compose.yml
+
+# Environment variables
+# .env
+# .env.*
+# !.env.example
+
+# VSCode
+# .vscode/
+# .prettierrc
+*.code-workspace
+
+
+# TypeScript
+.tsbuildinfo
+*.tsbuildinfo
+next-env.d.ts
+
+
+# System Files
+.DS_Store
+*.pem
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# next.js build output
+.next
+out
+dist
+app
+.bundle
+
+# vercel
+.vercel
+
+# Serverless directories
+.serverless/
+
+# Ignore whispercpp models
+models/**/*.bin
+**/models/**/*.bin
+
+#Ignore generated temporary files
+tmp/
+temp/
+
